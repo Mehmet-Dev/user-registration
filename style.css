@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    background-image: url('media/background.jpg'); /* Make your own media folder and add your background! */
+    background-size: cover;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: dashed;
+    border-color: cadetblue;
+    background-color: #ccc;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px !important;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+#records-table {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+#register-form {
+    display: none;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: rgb(168, 0, 0);
+}
